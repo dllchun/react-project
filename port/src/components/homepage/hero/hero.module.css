@@ -1,0 +1,188 @@
+.hero {
+  width: 100%;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  /* background-color: yellow; */
+}
+
+.heroDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.heroIntroText {
+  color: #575757;
+  font-weight: 300;
+}
+
+.heroHeading {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.coloredText {
+  color: #a48dff;
+
+  /* Create gradient */
+  background: linear-gradient(
+    135deg,
+    #a48dff 0%,
+    #a893ff 42%,
+    #40f4ff 100%,
+    #7db9e8 100%
+  );
+
+  /* Clip the background to the text */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Make the text transparent, so the gradient shows through */
+  -webkit-text-fill-color: transparent;
+}
+
+.heroDesc {
+  color: #909090;
+  line-height: 28px;
+  max-width: 600px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.socialText {
+  font-size: 14px;
+  font-weight: 300;
+  color: #909090;
+}
+
+.socialLogo {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(243, 243, 243);
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.socialLogo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(164, 141, 255, 0.4),
+    0 0 30px rgba(168, 147, 255, 0.3), 0 0 60px rgba(64, 244, 255, 0.2),
+    0 0 90px rgba(125, 185, 232, 0.1);
+  cursor: pointer;
+}
+
+.imgWrapper {
+  position: relative;
+}
+
+.instgramImg {
+  position: absolute;
+  left: -20px;
+  bottom: 80px;
+}
+
+.beerImg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.codeImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.starImg {
+  position: absolute;
+  top: -10px;
+}
+
+/* Animation */
+
+@keyframes float1 {
+  0%,
+  100% {
+    transform: translate(0, -10px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
+.iconFloatingOne {
+  animation: float1 4s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0%,
+  100% {
+    transform: translate(-10px, 0);
+  }
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
+.iconFloatingTwo {
+  animation: float2 3s ease-in-out infinite;
+}
+
+@keyframes float3 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-10px, -10px);
+  }
+  50% {
+    transform: translate(10px, 10px);
+  }
+  75% {
+    transform: translate(-10px, 10px);
+  }
+}
+
+.iconFloatingThree {
+  animation: float3 5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.2); /* 50% larger */
+  }
+}
+
+.starPulse {
+  animation: pulse 4s infinite ease-in-out;
+}

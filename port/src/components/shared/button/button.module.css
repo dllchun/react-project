@@ -1,0 +1,23 @@
+.btn {
+  width: 160px;
+  height: 60px;
+  border: none;
+  background: linear-gradient(
+    135deg,
+    #a48dff 0%,
+    #a893ff 42%,
+    #40f4ff 100%,
+    #7db9e8 100%
+  );
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(164, 141, 255, 0.4),
+    0 0 30px rgba(168, 147, 255, 0.3), 0 0 60px rgba(64, 244, 255, 0.2),
+    0 0 90px rgba(125, 185, 232, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
