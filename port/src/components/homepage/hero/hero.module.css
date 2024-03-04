@@ -186,3 +186,39 @@
 .starPulse {
   animation: pulse 4s infinite ease-in-out;
 }
+
+/* Mobile Response */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .heroDetails {
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .heroHeading {
+    font-size: 48px;
+  }
+
+  .social {
+    text-align: left;
+  }
+
+  .imgWrapper .heroImg {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .imgWrapper .heroImg {
+    width: 95%;
+    height: auto;
+  }
+  .heroHeading {
+    font-size: 36px;
+  }
+} */

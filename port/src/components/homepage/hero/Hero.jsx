@@ -52,7 +52,12 @@ const Hero = () => {
             height={120}
             className={`${styles.starImg} ${styles.starPulse}`}
           />
-          <Image src="heroImg.svg" width={450} height={500} />
+          <Image
+            src="heroImg.svg"
+            width={450}
+            height={500}
+            className={styles.heroImg}
+          />
           <Image
             alt="3d_instagram_logo"
             src="3d_instagram.svg"

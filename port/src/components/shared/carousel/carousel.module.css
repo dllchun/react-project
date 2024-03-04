@@ -42,3 +42,12 @@
   display: flex;
   gap: 20px;
 }
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

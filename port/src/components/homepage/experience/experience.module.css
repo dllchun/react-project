@@ -57,11 +57,28 @@
   left: -50px;
 }
 
-/* .purpleBg {
-  width: 450px;
-  height: 400px;
-  background-color: #efeffb;
-  position: absolute;
-  top: 0;
-  z-index: -999;
-} */
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: flex-start;
+  }
+  .leftInfo {
+    text-align: center;
+    align-items: center;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .rightInfo {
+    background-color: transparent;
+  }
+
+  .rightInfoContainer {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
