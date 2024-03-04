@@ -21,7 +21,11 @@ const Hero = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam
           </span>
-          <Button text={"RECENT WORK"} link={"#"} />
+          <Button
+            color={"gradient"}
+            text={"RECENT WORK"}
+            link={"/#sideProject"}
+          />
           <div className={styles.social}>
             <span className={styles.socialText}>Check Out My</span>
             <div className={`${styles.socialLogo}`}>

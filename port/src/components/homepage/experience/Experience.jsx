@@ -18,7 +18,7 @@ const ExperienceSection = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam{" "}
             </span>
-            <Button text="My LinkedIn" link="#" />
+            <Button color={"gradient"} text="My LinkedIn" link="#" />
           </div>
           <div className={styles.rightInfo}>
             <div className={styles.rightInfoContainer}>
