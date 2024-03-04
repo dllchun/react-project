@@ -1,0 +1,67 @@
+.experience {
+  width: 100%;
+  padding: var(--paddingX) var(--paddingY);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.leftInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.leftInfo > span {
+  max-width: 480px;
+  color: #909090;
+  line-height: 28px;
+}
+
+.rightInfo {
+  max-width: 400px;
+  height: 360px;
+  flex: 1;
+  position: relative;
+  background-color: #efeffb;
+  border-radius: 10px;
+}
+
+.rightInfoContainer {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+
+/* .purpleBg {
+  width: 450px;
+  height: 400px;
+  background-color: #efeffb;
+  position: absolute;
+  top: 0;
+  z-index: -999;
+} */

@@ -1,0 +1,50 @@
+.sideProject {
+  clip-path: polygon(0 16%, 100% 9%, 100% 100%, 0% 100%);
+  width: 100%;
+  background-color: #5559c2;
+  padding: 130px var(--paddingY);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.contentLeft {
+  flex: 1;
+}
+
+.contentRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projectTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.projectDesc {
+  font-size: 16px;
+  line-height: 32px;
+  max-width: 450px;
+  opacity: 0.9;
+}
