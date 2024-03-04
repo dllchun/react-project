@@ -1,7 +1,11 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/navbar/Navbar";
-// import Footer from "@/components/shared/footer/Footer";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+// Prevent fontawesome from adding its CSS since we did it manually above:
+import { config } from "@fortawesome/fontawesome-svg-core";
+import Footer from "@/components/shared/footer/Footer";
+config.autoAddCss = false; /* eslint-disable import/first */
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,14 +18,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>
-          <div className="container">
-            <Navbar />
+        <div className="container">
+          <Navbar />
 
-            {children}
-            {/* <Footer /> */}
-          </div>
-        </main>
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

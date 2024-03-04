@@ -7,13 +7,19 @@ const TextLabel = () => {
     <section className={styles.textLabel}>
       <div className={styles.container}>
         <p className={styles.loopText}>
-          Coding • UX • Design • Data • Product •
+          Coding &nbsp; &nbsp;• &nbsp; &nbsp; UX &nbsp; &nbsp; • &nbsp; &nbsp;
+          Design &nbsp; &nbsp; • &nbsp; &nbsp; Data &nbsp; &nbsp; • &nbsp;
+          &nbsp; Product &nbsp; &nbsp; •
         </p>
         <p className={styles.loopText}>
-          Coding • UX • Design • Data • Product •
+          Coding &nbsp; &nbsp;• &nbsp; &nbsp; UX &nbsp; &nbsp; • &nbsp; &nbsp;
+          Design &nbsp; &nbsp; • &nbsp; &nbsp; Data &nbsp; &nbsp; • &nbsp;
+          &nbsp; Product &nbsp; &nbsp; •
         </p>
         <p className={styles.loopText}>
-          Coding • UX • Design • Data • Product •
+          Coding &nbsp; &nbsp;• &nbsp; &nbsp; UX &nbsp; &nbsp; • &nbsp; &nbsp;
+          Design &nbsp; &nbsp; • &nbsp; &nbsp; Data &nbsp; &nbsp; • &nbsp;
+          &nbsp; Product &nbsp; &nbsp; •
         </p>
       </div>
     </section>

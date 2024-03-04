@@ -21,7 +21,11 @@ const Hero = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam
           </span>
-          <Button text={"RECENT WORK"} link={"#"} />
+          <Button
+            color={"gradient"}
+            text={"RECENT WORK"}
+            link={"/#sideProject"}
+          />
           <div className={styles.social}>
             <span className={styles.socialText}>Check Out My</span>
             <div className={`${styles.socialLogo}`}>
@@ -48,7 +52,12 @@ const Hero = () => {
             height={120}
             className={`${styles.starImg} ${styles.starPulse}`}
           />
-          <Image src="heroImg.svg" width={450} height={500} />
+          <Image
+            src="heroImg.svg"
+            width={450}
+            height={500}
+            className={styles.heroImg}
+          />
           <Image
             alt="3d_instagram_logo"
             src="3d_instagram.svg"

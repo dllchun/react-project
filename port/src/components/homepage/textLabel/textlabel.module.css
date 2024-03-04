@@ -4,7 +4,7 @@
   padding: 20px;
   color: white;
   overflow: hidden;
-  height: 90px;
+  height: 80px;
   /* clip-path: polygon(0 15%, 100% 0, 100% 69%, 0 82%); */
 }
 
@@ -19,11 +19,11 @@
 }
 
 .loopText {
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
   padding: 0 0.25em;
-  animation: loopText 25s infinite linear;
+  animation: loopText 30s infinite linear;
 }
 
 @keyframes loopText {
