@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 40px;
+}
+
+.container {
+  max-width: var(--max-width);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+
+.linkItem {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 12px 18px;
+  border: none;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+}
