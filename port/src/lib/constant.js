@@ -1,8 +1,8 @@
 export const sideProject = [
   {
     id: 1,
-    title: "Ecommerce",
-    img: "heroImg.svg",
+    title: "Food Delivery",
+    img: "food_delivery.png",
     link: "/test",
     description:
       "A dynamic online store offering a seamless shopping experience with a user-friendly interface, secure payment gateways, and an intelligent recommendation system to cater to consumer preferences. Features real-time inventory updates, customer reviews, and an advanced search functionality to easily find products.",
@@ -10,8 +10,8 @@ export const sideProject = [
   },
   {
     id: 2,
-    title: "Cryto",
-    img: "heroImg.svg",
+    title: "AI Tools",
+    img: "ai_note.png",
     link: "/test",
     description:
       "A cutting-edge cryptocurrency platform providing real-time market analysis, coin tracking, and secure trading options. The site includes educational resources for both novice and experienced investors, portfolio management tools, and the latest blockchain news. Empowers users with comprehensive charts, forums for community discussions, and insights into market trends to make informed investment decisions.",
