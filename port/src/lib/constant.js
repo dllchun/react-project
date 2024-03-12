@@ -2,37 +2,19 @@ export const sideProject = [
   {
     id: 1,
     title: "Food Delivery",
-    img: "food_delivery.png",
-    link: "/test",
+    img: "/food_delivery.png",
+    link: "https://www.food-delivery.ch88un.com/",
     description:
-      "A dynamic online store offering a seamless shopping experience with a user-friendly interface, secure payment gateways, and an intelligent recommendation system to cater to consumer preferences. Features real-time inventory updates, customer reviews, and an advanced search functionality to easily find products.",
-    github: "/test",
+      "The mock-up food delivery service where tantalizing visuals meet user-friendly design. Immerse yourself in a simulated digital dining experience that showcases the ease and convenience of ordering your favorite meals online. Please note, this is a demonstration site and no actual transactions or deliveries will take place.",
+    github: "https://github.com/dllchun/ecommerce",
   },
   {
     id: 2,
-    title: "AI Tools",
-    img: "ai_note.png",
-    link: "/test",
+    title: "QuickNote AI",
+    img: "/ai_note.png",
+    link: "https://www.chatbot.ch88un.com/notes",
     description:
-      "A cutting-edge cryptocurrency platform providing real-time market analysis, coin tracking, and secure trading options. The site includes educational resources for both novice and experienced investors, portfolio management tools, and the latest blockchain news. Empowers users with comprehensive charts, forums for community discussions, and insights into market trends to make informed investment decisions.",
-    github: "/test",
-  },
-  {
-    id: 3,
-    title: "Chatbot",
-    img: "heroImg.svg",
-    link: "/test",
-    description:
-      "An AI-powered conversational agent designed to simulate human-like interactions, providing customer support and gathering insights. Capable of handling inquiries, guiding users through website navigation, and assisting with transactions. Integrated with natural language processing to understand and respond accurately to user requests.",
-    github: "/test",
-  },
-  {
-    id: 4,
-    title: "Car",
-    img: "heroImg.svg",
-    link: "/test",
-    description:
-      "An automotive platform that showcases a wide range of vehicles, from new releases to used classics. Offers detailed car reviews, comparison tools, and virtual test drives. Features a user-friendly interface for buyers and sellers to post listings, schedule maintenance, and access financing options.",
-    github: "/test",
+      "QuickNote AI is the ultimate note-taking and organizational tool designed for busy individuals who want to capture thoughts, ideas, and tasks on the go. With our state-of-the-art app, not only can you easily save your notes, but also interact with an intelligent chatbot to retrieve information, set reminders, and ask questions about your saved content.",
+    github: "https://github.com/dllchun/chatbot",
   },
 ];

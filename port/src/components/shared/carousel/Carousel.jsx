@@ -95,13 +95,15 @@ const DemoCarousel = () => {
           {projects
             ? projects.map((project) => (
                 <div key={project.id}>
-                  <Image
-                    src={project.img}
-                    alt={project.title}
-                    width="350"
-                    height="350"
-                    className={styles.carouselImg}
-                  />
+                  <div className={styles.imgContainer}>
+                    <Image
+                      src={project.img}
+                      alt={project.title}
+                      width="350"
+                      height="350"
+                      className={styles.carouselImg}
+                    />
+                  </div>
                 </div>
               ))
             : projects.map((project) => (
@@ -124,11 +126,16 @@ const DemoCarousel = () => {
           {projects[currentProject].description}
         </span>
         <div className={styles.buttons}>
-          <Button text="Read More" link={projects[currentProject].link} />
+          <Button
+            text="Read More"
+            link={projects[currentProject].link}
+            target="true"
+          />
           <Button
             text="Github"
             link={projects[currentProject].github}
             logo={"github"}
+            target="true"
           />
         </div>
       </div>

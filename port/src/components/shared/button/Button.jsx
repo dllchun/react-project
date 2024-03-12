@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink, faCode } from "@fortawesome/free-solid-svg-icons";
 
-const Button = ({ text, link, color, logo }) => {
+const Button = ({ text, link, color, logo, target }) => {
   return (
     <button
       className={`${
@@ -12,7 +12,13 @@ const Button = ({ text, link, color, logo }) => {
       }`}
     >
       <FontAwesomeIcon icon={logo === "github" ? faCode : faLink} />
-      <Link href={link}>{text}</Link>
+      {target ? (
+        <a href={link} target="_blank">
+          {text}
+        </a>
+      ) : (
+        <Link href={link}>{text}</Link>
+      )}
     </button>
   );
 };

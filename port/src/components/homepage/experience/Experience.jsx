@@ -18,21 +18,26 @@ const ExperienceSection = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam{" "}
             </span>
-            <Button color={"gradient"} text="My LinkedIn" link="#" />
+            <Button
+              color={"gradient"}
+              text="My LinkedIn"
+              link="https://www.linkedin.com/in/vincent-cheung-3667721b2/"
+              target="true"
+            />
           </div>
           <div className={styles.rightInfo}>
             <div className={styles.rightInfoContainer}>
               <JobCard
                 icon={logo}
-                title="Technical Project Manager"
-                company="i2 Company Limited"
-                date="Jun 22 - Jan 24"
+                title="Webflow Developer"
+                company="Freelance"
+                date="July 22 - Present"
               />
               <JobCard
                 icon={logo}
-                title="Technical Project Manager"
-                company="i2 Company Limited "
-                date="Jun 22 - Jan 24"
+                title="UXUI Designer"
+                company="Freelance"
+                date="Dec 21 - Present"
               />
               <JobCard
                 icon={logo}
