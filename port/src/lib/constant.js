@@ -12,7 +12,7 @@ export const sideProject = [
     id: 2,
     title: "QuickNote AI",
     img: "/ai_note.png",
-    link: "https://www.chatbot.ch88un.com/notes",
+    link: "https://www.chatbot.ch88un.com/new-notes",
     description:
       "QuickNote AI is the ultimate note-taking and organizational tool designed for busy individuals who want to capture thoughts, ideas, and tasks on the go. With our state-of-the-art app, not only can you easily save your notes, but also interact with an intelligent chatbot to retrieve information, set reminders, and ask questions about your saved content.",
     github: "https://github.com/dllchun/chatbot",
